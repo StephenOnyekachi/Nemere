@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+
+    <link href="image/program.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js ">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+    <nav class="navbar-default navbar-fixed-top nav" role="navigation">
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="navbar-toggle">
+            <i class="fa fa-navicon" id="bars" width="50px"></i>
+            <i class="fa fa-remove" id="cancel" width="50px"></i>
+        </label>
+        
+        <a class="navbar-brand" href="#">web name</a>
+
+        <div class="navbar collapse navbar-collapse ">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="admin.html">home</a></li>
+                <li><a href="admintestimone.html">testimonies</a></li>
+                <li><a href="users.html">users</a></li>
+                <li><a href="index.html">log out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row head">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>add testimonies</h3>
+                    <h5>here</h5>
+                </div>
+                <form action="">
+                    <label for="item" style="padding: 5px;" class="btn btn-primary">
+                        click here to choose picture or video to upload
+                    </label><br>
+                    <input type="file" id="item" style="display: none;"><br>
+
+                    <label for="">content</label><br>
+                    <textarea class="form-control" type="text" name="" id="" cols="30" rows="10">
+                    </textarea><br>
+
+                    <div class="col-md-12">
+                        <input class="form-control" type="text" placeholder="enter telegram address here..."><br>
+                    </div><br>
+
+                    <div class="col-md-4 button">
+                        <button class="btn btn-primary dropdown-toggle">add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <h3>walleth updating</h3>
+    
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">address type</th>
+                                <th scope="col"> address</th>
+                                <th scope="col">copy</th>
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>btc</td>
+                                <td>
+                                    <input class="form-control" type="text" placeholder="past wallet address here">
+                                </td>
+                                <td>
+                                    <td>
+                                        <a href="#" class="btn btn-default">add address</a>
+                                    </td>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div><br>
+                
+                <div class="col-md-12">
+                    <h3>possted wallets</h3>
+    
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">address type</th>
+                                <th scope="col"> address</th>
+                                <th scope="col">copy</th>
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>btc</td>
+                                <td>
+                                    <input class="form-control" type="text" value="dhhcvcvcdvhhhjhfgghhcdcdhddhdhdhdhajhd666263gvbvvbvbb">
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-default" role="button">delet address</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>usd</td>
+                                <td>
+                                    <input class="form-control" type="text" value="dhhcvcvcdvhhhdhajhd666263gvbvvbvbbhjhfgghhcdcdhddhdhd">
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-default" role="button">delet address</a>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>UPDATE INVESTMENT RENT PLANS</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-book fa-3x"></i></h5>
+                        <h3>BASIC</h3>
+                        <h4>4%</h4>
+                        <p><b>AFTER 24 HOURS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-book-o fa-3x"></i></h5>
+                        <h3>STANDARD</h3>
+                        <h4>9%</h4>
+                        <p><b>AFTER 48 HOURS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-card fa-3x"></i></h5>
+                        <h3>VIP</h3>
+                        <h4>15%</h4>
+                        <p><b>AFTER 72 HOURS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-card-o fa-3x"></i></h5>
+                        <h3>SPECIAL</h3>
+                        <h4>22%</h4>
+                        <p><b>AFTER 4 DAYS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>UPDATE STOCK AND REAL ESTATE RENT PLANS</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle fa-3x"></i></h5>
+                        <h3>STOCK1</h3>
+                        <h4>7.5%</h4>
+                        <p><b>DAILY FOR 15 DAYS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-o fa-3x"></i></h5>
+                        <h3>STOCK2</h3>
+                        <h4>9.0%</h4>
+                        <p><b>DAILY FOR 15 DAYS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-thin fa-3x"></i></h5>
+                        <h3>ESTATE1</h3>
+                        <h4>12%</h4>
+                        <p><b>DAILY FOR 30 DAYS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-o-notch fa-3x"></i></h5>
+                        <h3>ESTATE2</h3>
+                        <h4>15%</h4>
+                        <p><b>DAILY FOR 30 DAYS</b></p>
+                        <form action="">
+                            <input type="text" placeholder="add amount" style="padding: 5px;">
+                            <button class="btn btn-primary">add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>INVESTMENT PLANS</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-book fa-3x"></i></h5>
+                        <h3>BASIC</h3>
+                        <h4>4%</h4>
+                        <p><b>AFTER 24 HOURS</b></p>
+                        <p>MIN DEPOSIT: $200</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-book-o fa-3x"></i></h5>
+                        <h3>STANDARD</h3>
+                        <h4>9%</h4>
+                        <p><b>AFTER 48 HOURS</b></p>
+                        <p>MIN DEPOSIT: $1000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-card fa-3x"></i></h5>
+                        <h3>VIP</h3>
+                        <h4>15%</h4>
+                        <p><b>AFTER 72 HOURS</b></p>
+                        <p>MIN DEPOSIT: $3,000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-address-card-o fa-3x"></i></h5>
+                        <h3>SPECIAL</h3>
+                        <h4>22%</h4>
+                        <p><b>AFTER 4 DAYS</b></p>
+                        <p>MIN DEPOSIT: $5,000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>STOCK AND REAL ESTATE PLANS</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle fa-3x"></i></h5>
+                        <h3>STOCK1</h3>
+                        <h4>7.5%</h4>
+                        <p><b>DAILY FOR 15 DAYS</b></p>
+                        <p>MIN DEPOSIT: $6000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-o fa-3x"></i></h5>
+                        <h3>STOCK2</h3>
+                        <h4>9.0%</h4>
+                        <p><b>DAILY FOR 15 DAYS</b></p>
+                        <p>MIN DEPOSIT: $15,000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-thin fa-3x"></i></h5>
+                        <h3>ESTATE1</h3>
+                        <h4>12%</h4>
+                        <p><b>DAILY FOR 30 DAYS</b></p>
+                        <p>MIN DEPOSIT: $15,000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="coin">
+                        <h5><i class="fa fa-circle-o-notch fa-3x"></i></h5>
+                        <h3>ESTATE2</h3>
+                        <h4>15%</h4>
+                        <p><b>DAILY FOR 30 DAYS</b></p>
+                        <p>MIN DEPOSIT: $30,000</p>
+                        <p>INVESTMENT PAYOUT</p>
+                        <p>AFTER 24 HOURS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="css/js.js"></script>
+
+</html>
